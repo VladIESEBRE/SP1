@@ -131,6 +131,7 @@ title: "Sprint 1: Instal·lació i Configuració Inicial"
 
  
  </details>
+  <details>
   <summary>Particions i punts de restauració</summary>
 
 ## Particions i punts de restauració
