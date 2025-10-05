@@ -88,7 +88,7 @@ title: "Sprint 1: Instal·lació i Configuració Inicial"
   <summary>Instal·lacións duals i Gestors d'arrancada</summary>
 
 ## Instal·lacións duals i Gestors d'arrancada
-</details>
+
  # Paso 1
  &nbsp;&nbsp;
 <img width="874" height="578" alt="Captura de pantalla de 2025-10-03 11-56-28" src="https://github.com/user-attachments/assets/f02d0b70-215d-4a02-9ea0-ae9ed4d58d7d" />
