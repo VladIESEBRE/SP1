@@ -83,48 +83,57 @@ title: "Sprint 1: Instal·lació i Configuració Inicial"
 ## Instal·lacións duals i Gestors d'arrancada
 
  # Paso 1
- &nbsp;&nbsp; Activamos EFI ya que si no lo activamos nos podríamos enfrentar con problemas de compatibilidad.
+ &nbsp;&nbsp; -Activamos EFI ya que si no lo activamos nos podríamos enfrentar con problemas de compatibilidad.
  
 <img width="874" height="578" alt="Captura de pantalla de 2025-10-03 11-56-28" src="https://github.com/user-attachments/assets/f02d0b70-215d-4a02-9ea0-ae9ed4d58d7d" />
 
  # Paso 2
+ &nbsp;&nbsp; -Creamos un disco virtual y montamos la imagen ISO con el Windows 10 Enterptrise en "Controlador:IDE"
 <img width="874" height="578" alt="Captura de pantalla de 2025-10-03 11-59-31" src="https://github.com/user-attachments/assets/1424ef9b-ad47-49f1-b8d1-c4058580b0d0" />
 
-
  # Paso 3
+ &nbsp;&nbsp; -Selecionamos Instalación personalizada,para poder elegir donde instalar en windows.
 <img width="1186" height="886" alt="Captura de pantalla de 2025-10-03 12-03-46" src="https://github.com/user-attachments/assets/c395f3ea-d0e8-4482-85e4-1e6d462ba0a5" />
  
- 
-
- # Paso 4 
+ # Paso 4
+ &nbsp;&nbsp; -Seleccionamos "Unidad 0-Particion 8" (es el disco virtual) y le damos al boton nuevo para crear una particion nueva e instalar el windows ahí. 
 <img width="1186" height="886" alt="Captura de pantalla de 2025-10-03 12-04-48" src="https://github.com/user-attachments/assets/458fa1b7-bd1f-4392-aa49-ee3a513beed4" />
  
- 
  # Paso 5 
+ &nbsp;&nbsp; -Seguimos con la instalación normal del windows hasta que llegamos al Home Screen y comprobamos que todo se ha instalado correctamente.  
 <img width="1186" height="886" alt="Captura de pantalla de 2025-10-03 12-28-39" src="https://github.com/user-attachments/assets/cb21aaeb-7d50-412d-8355-5e2f7d9df452" />
  
- 
  # Paso 6
+ &nbsp;&nbsp; -Borramos el disco virtual del Windows que hemos creado.
 <img width="880" height="542" alt="Captura de pantalla de 2025-10-03 12-29-26" src="https://github.com/user-attachments/assets/e5fb4ee1-8454-4233-af71-7c4f60686900" />
  
- 
  # Paso 7
+ &nbsp;&nbsp; -Creamos un disco virtual vacío.
 <img width="880" height="542" alt="Captura de pantalla de 2025-10-03 12-29-47" src="https://github.com/user-attachments/assets/608725a0-8125-432c-98bb-c046210dfa49" />
  
- 
  # Paso 8
+ &nbsp;&nbsp; - Montamos la ISO "Spuber_GRUB_2..." que nos permitirá cambiar el grub.
 <img width="1104" height="639" alt="Captura de pantalla de 2025-10-03 12-39-50" src="https://github.com/user-attachments/assets/48f1c293-ddf0-4a88-b35f-f4cade900f8c" />
  
  # Paso 9
+ &nbsp;&nbsp; -Entramos en el Boot Manager del VM (apretando la tecla "ESC" rapidamente) y seleccionamos "UEFI V-BOX"( el disco virtual que acabamos de montar)
 <img width="651" height="483" alt="Captura de pantalla de 2025-10-03 12-40-43" src="https://github.com/user-attachments/assets/4e2693ce-580f-45f4-b63c-88cca4dfddb6" />
  
  # Paso 10
+ &nbsp;&nbsp; -Le damos a la segunda opción ("Detect and show boot methods) y seleccionamos Ubuntu(o Linux dependiendo del caso).
 <img width="641" height="489" alt="Captura de pantalla de 2025-10-03 12-41-20" src="https://github.com/user-attachments/assets/79a04a1b-58e9-43d3-a7a1-3628b83625f0" />
+ 
  # Paso 11
+ &nbsp;&nbsp; -Al llegar a la página principal de Ubuntu, abrimos el terminal y escribimos "apt install --reinstall grub-pc" (fuerza la reinstalación del paquete que contiene los archivos necesarios para que GRUB funcione en sistemas que arrancan en modo BIOS).
 <img width="746" height="486" alt="Captura de pantalla de 2025-10-03 12-46-42" src="https://github.com/user-attachments/assets/3a4a50aa-82a1-4eeb-b4a1-3caed095bef8" />
- # Paso 12
+ 
 <img width="746" height="486" alt="Captura de pantalla de 2025-10-03 12-49-01" src="https://github.com/user-attachments/assets/05c42854-8a97-49cf-bda1-572091513149" />
+
  # Paso 13
+  &nbsp;&nbsp; -Abrimos el archivo de configuración de GRUB escribiendo "sudo nano /etc/default/grub". 
+ &nbsp;&nbsp; -Ponemos una "#" antes de #GRUB_TIMEOUT_STYLE=hidden y #GRUB_TIMEOUT=5 para desactivarlas .Sin estas líneas, GRUB puede usar un comportamiento predeterminado, haciendo que el menú no sea visible a menos que presiones una tecla durante el arranque.
+ &nbsp;&nbsp; -Añadimos "GRUB_DISABLE_OS_PROBER=false" para activar el os-prober (es una utilidad que escanea los discos en busca de otros sistemas operativos y agrega entradas para ellos en el menú de GRUB).Así GRUB puede buscar y añadir entradas para otros sistemas operativos, en el menú de arranque.
+
 <img width="746" height="486" alt="Captura de pantalla de 2025-10-03 12-51-43" src="https://github.com/user-attachments/assets/10c47847-be52-46cf-ad35-390b4871f561" />
  # Paso 14
 <img width="746" height="486" alt="Captura de pantalla de 2025-10-03 12-53-05" src="https://github.com/user-attachments/assets/a82c9858-418f-446a-a3b2-9e306f3f8cb8" />
