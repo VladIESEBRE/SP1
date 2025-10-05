@@ -140,25 +140,33 @@ title: "Sprint 1: Instal·lació i Configuració Inicial"
 <img width="746" height="486" alt="Captura de pantalla de 2025-10-03 12-49-01" src="https://github.com/user-attachments/assets/05c42854-8a97-49cf-bda1-572091513149" />
 
  # Paso 13
-  &nbsp;&nbsp; -Abrimos el archivo de configuración de GRUB escribiendo "sudo nano /etc/default/grub". 
- &nbsp;&nbsp; -Ponemos una "#" antes de #GRUB_TIMEOUT_STYLE=hidden y #GRUB_TIMEOUT=5 para desactivarlas .Sin estas líneas, GRUB puede usar un comportamiento predeterminado, haciendo que el menú no sea visible a menos que presiones una tecla durante el arranque.
- &nbsp;&nbsp; -Añadimos "GRUB_DISABLE_OS_PROBER=false" para activar el os-prober (es una utilidad que escanea los discos en busca de otros sistemas operativos y agrega entradas para ellos en el menú de GRUB).Así GRUB puede buscar y añadir entradas para otros sistemas operativos, en el menú de arranque.
+- Abrimos el archivo de configuración de GRUB escribiendo "sudo nano /etc/default/grub".
+- Ponemos una "#" antes de "#GRUB_TIMEOUT_STYLE=menu" y "#GRUB_TIMEOUT=5" para desactivarlas .Sin estas líneas, GRUB puede usar un comportamiento predeterminado, haciendo que el menú no sea visible a menos que presiones una tecla durante el arranque.
+- Añadimos "GRUB_DISABLE_OS_PROBER=false" para activar el os-prober (es una utilidad que escanea los discos en busca de otros sistemas operativos y agrega entradas para ellos en el menú de GRUB).Así GRUB puede buscar y añadir entradas para otros sistemas operativos, en el menú de arranque.
+- Salimos (Ctrl+X) y guardamos.
 
 <img width="746" height="486" alt="Captura de pantalla de 2025-10-03 12-51-43" src="https://github.com/user-attachments/assets/10c47847-be52-46cf-ad35-390b4871f561" />
  
  # Paso 14
+  &nbsp;&nbsp; -Escribimos "update-grub2" para que se guarde la configuración.
+  
 <img width="746" height="486" alt="Captura de pantalla de 2025-10-03 12-53-05" src="https://github.com/user-attachments/assets/a82c9858-418f-446a-a3b2-9e306f3f8cb8" />
+
  # Paso 15
+  &nbsp;&nbsp; -Si queremos cambiar el orden de arranque ,escribimos "efibootmgr".
+
 <img width="746" height="486" alt="Captura de pantalla de 2025-10-03 12-53-49" src="https://github.com/user-attachments/assets/a463d045-65a2-4598-a807-3a4dab15ab2b" />
- # Paso 16
+ 
 <img width="746" height="486" alt="Captura de pantalla de 2025-10-03 12-54-49" src="https://github.com/user-attachments/assets/01cd6b90-38ba-4e02-8b48-5237f51e4cf7" />
+
  # Paso 17
+  &nbsp;&nbsp; -Aquí podemos ver como cambiar el orden de arranque(efibootmgr -o y los números en orden de arranque). El primero en iniciarse será UEFI VBOX HRDDISK, después UiApp ,UEFI VBOX CD-ROM etc....
 <img width="746" height="486" alt="Captura de pantalla de 2025-10-03 12-57-50" src="https://github.com/user-attachments/assets/847b8947-4da3-4331-8cc8-e3113ff74bf5" />
+
  # Paso 18
+  &nbsp;&nbsp; -Después al iniciar el sistema podemos entrar en el menú de GRUB y seleccionar qué sistema operativo arrancar.
 <img width="1037" height="821" alt="Captura de pantalla de 2025-10-03 13-01-18" src="https://github.com/user-attachments/assets/31c34a3b-7463-4640-b561-b7d93b2069cc" />
 
-
- 
  </details>
   <details>
   <summary>Particions i punts de restauració</summary>
