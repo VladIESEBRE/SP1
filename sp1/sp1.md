@@ -83,42 +83,58 @@ title: "Sprint 1: Instal·lació i Configuració Inicial"
 ## Instal·lacións duals i Gestors d'arrancada
 
  # Paso 1
- &nbsp;&nbsp;
+ &nbsp;&nbsp; Activamos EFI ya que si no lo activamos nos podríamos enfrentar con problemas de compatibilidad.
+ 
 <img width="874" height="578" alt="Captura de pantalla de 2025-10-03 11-56-28" src="https://github.com/user-attachments/assets/f02d0b70-215d-4a02-9ea0-ae9ed4d58d7d" />
 
-
+ # Paso 2
 <img width="874" height="578" alt="Captura de pantalla de 2025-10-03 11-59-31" src="https://github.com/user-attachments/assets/1424ef9b-ad47-49f1-b8d1-c4058580b0d0" />
 
+
+ # Paso 3
 <img width="1186" height="886" alt="Captura de pantalla de 2025-10-03 12-03-46" src="https://github.com/user-attachments/assets/c395f3ea-d0e8-4482-85e4-1e6d462ba0a5" />
+ 
+ 
 
+ # Paso 4 
 <img width="1186" height="886" alt="Captura de pantalla de 2025-10-03 12-04-48" src="https://github.com/user-attachments/assets/458fa1b7-bd1f-4392-aa49-ee3a513beed4" />
-
+ 
+ 
+ # Paso 5 
 <img width="1186" height="886" alt="Captura de pantalla de 2025-10-03 12-28-39" src="https://github.com/user-attachments/assets/cb21aaeb-7d50-412d-8355-5e2f7d9df452" />
-
+ 
+ 
+ # Paso 6
 <img width="880" height="542" alt="Captura de pantalla de 2025-10-03 12-29-26" src="https://github.com/user-attachments/assets/e5fb4ee1-8454-4233-af71-7c4f60686900" />
-
+ 
+ 
+ # Paso 7
 <img width="880" height="542" alt="Captura de pantalla de 2025-10-03 12-29-47" src="https://github.com/user-attachments/assets/608725a0-8125-432c-98bb-c046210dfa49" />
-
+ 
+ 
+ # Paso 8
 <img width="1104" height="639" alt="Captura de pantalla de 2025-10-03 12-39-50" src="https://github.com/user-attachments/assets/48f1c293-ddf0-4a88-b35f-f4cade900f8c" />
-
+ 
+ # Paso 9
 <img width="651" height="483" alt="Captura de pantalla de 2025-10-03 12-40-43" src="https://github.com/user-attachments/assets/4e2693ce-580f-45f4-b63c-88cca4dfddb6" />
-
+ 
+ # Paso 10
 <img width="641" height="489" alt="Captura de pantalla de 2025-10-03 12-41-20" src="https://github.com/user-attachments/assets/79a04a1b-58e9-43d3-a7a1-3628b83625f0" />
-
+ # Paso 11
 <img width="746" height="486" alt="Captura de pantalla de 2025-10-03 12-46-42" src="https://github.com/user-attachments/assets/3a4a50aa-82a1-4eeb-b4a1-3caed095bef8" />
-
+ # Paso 12
 <img width="746" height="486" alt="Captura de pantalla de 2025-10-03 12-49-01" src="https://github.com/user-attachments/assets/05c42854-8a97-49cf-bda1-572091513149" />
-
+ # Paso 13
 <img width="746" height="486" alt="Captura de pantalla de 2025-10-03 12-51-43" src="https://github.com/user-attachments/assets/10c47847-be52-46cf-ad35-390b4871f561" />
-
+ # Paso 14
 <img width="746" height="486" alt="Captura de pantalla de 2025-10-03 12-53-05" src="https://github.com/user-attachments/assets/a82c9858-418f-446a-a3b2-9e306f3f8cb8" />
-
+ # Paso 15
 <img width="746" height="486" alt="Captura de pantalla de 2025-10-03 12-53-49" src="https://github.com/user-attachments/assets/a463d045-65a2-4598-a807-3a4dab15ab2b" />
-
+ # Paso 16
 <img width="746" height="486" alt="Captura de pantalla de 2025-10-03 12-54-49" src="https://github.com/user-attachments/assets/01cd6b90-38ba-4e02-8b48-5237f51e4cf7" />
-
+ # Paso 17
 <img width="746" height="486" alt="Captura de pantalla de 2025-10-03 12-57-50" src="https://github.com/user-attachments/assets/847b8947-4da3-4331-8cc8-e3113ff74bf5" />
-
+ # Paso 18
 <img width="1037" height="821" alt="Captura de pantalla de 2025-10-03 13-01-18" src="https://github.com/user-attachments/assets/31c34a3b-7463-4640-b561-b7d93b2069cc" />
 
 
