@@ -72,8 +72,7 @@ title: "Sprint 1: Instal·lació i Configuració Inicial"
 &nbsp;&nbsp;Ubuntu, no utiliza una sola licencia, sino que es un sistema operativo compuesto por miles de paquetes de software, cada uno con su propia licencia de código abierto. Sin embargo, la licencia predominante es la GNU General Public License (GPL), específicamente versiones como GPL-2.0 y GPL-3.0, junto con la GNU Lesser General Public License (LGPL) para bibliotecas. Esto permite que los usuarios modifiquen y redistribuyan el software libremente.
 
 #### **Por qué hay tantas licencias diferentes en Ubuntu?**
-&nbsp;&nbsp;Hay tantas licencias diferentes porque el mundo del software libre y de código abierto ha evolucionado durante décadas con necesidades variadas según los creadores y proyectos. Ubuntu, al basarse en Debian y en el ecosistema Linux, incorpora software de múltiples fuentes, lo que genera esta diversidad.
-
+&nbsp;&nbsp;Ubuntu tiene muchas licencias porque está hecho de muchos programas diferentes, y cada uno tiene sus propias reglas. Algunos son completamente libres (como GPL), otros más flexibles (como MIT), y algunos son propietarios (como controladores de NVIDIA). Como Ubuntu junta software de varias fuentes, cada uno trae su licencia, y por eso hay tanta variedad.
 <img width="266" height="59" alt="Captura de pantalla de 2025-09-26 11-59-32" src="https://github.com/user-attachments/assets/5c421019-47b9-472a-a5c6-d3e65fbb23c0" />
 
 &nbsp;&nbsp;En este proyecto utilizo la licencia Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0) de Creativer Commons.
