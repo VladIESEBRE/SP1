@@ -153,7 +153,7 @@ title: "Sprint 1: Instal·lació i Configuració Inicial"
 <img width="746" height="486" alt="Captura de pantalla de 2025-10-03 12-53-05" src="https://github.com/user-attachments/assets/a82c9858-418f-446a-a3b2-9e306f3f8cb8" />
 
  # Paso 15
-  &nbsp;&nbsp; - Si queremos cambiar el orden de arranque ,escribimos "efibootmgr".
+  &nbsp;&nbsp; - Si queremos cambiar el orden de arranque ,escribimos "efibootmgr".Si no está instalado escribimos apt install efibootmgr.
 
 <img width="746" height="486" alt="Captura de pantalla de 2025-10-03 12-53-49" src="https://github.com/user-attachments/assets/a463d045-65a2-4598-a807-3a4dab15ab2b" />
  
