@@ -118,7 +118,7 @@ title: "Sprint 1: Instal·lació i Configuració Inicial"
 <img width="880" height="542" alt="Captura de pantalla de 2025-10-03 12-29-47" src="https://github.com/user-attachments/assets/608725a0-8125-432c-98bb-c046210dfa49" />
  
  # Paso 8
- &nbsp;&nbsp; - Montamos la ISO "Spuber_GRUB_2..." que nos permitirá cambiar el grub.
+ &nbsp;&nbsp; - Montamos la ISO "Spuber_GRUB_2..." que nos permitirá acceder al Ubuntu.
 
 <img width="1104" height="639" alt="Captura de pantalla de 2025-10-03 12-39-50" src="https://github.com/user-attachments/assets/48f1c293-ddf0-4a88-b35f-f4cade900f8c" />
  
