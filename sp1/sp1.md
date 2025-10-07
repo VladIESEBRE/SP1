@@ -153,17 +153,17 @@ title: "Sprint 1: Instal·lació i Configuració Inicial"
 <img width="746" height="486" alt="Captura de pantalla de 2025-10-03 12-53-05" src="https://github.com/user-attachments/assets/a82c9858-418f-446a-a3b2-9e306f3f8cb8" />
 
  # Paso 15
-  &nbsp;&nbsp; - Si queremos cambiar el orden de arranque ,escribimos "efibootmgr".Si no está instalado escribimos apt install efibootmgr.
+  &nbsp;&nbsp; - Si queremos cambiar el orden de arranque ,escribimos "efibootmgr".Si no está instalado escribimos apt install "efibootmgr".
 
 <img width="746" height="486" alt="Captura de pantalla de 2025-10-03 12-53-49" src="https://github.com/user-attachments/assets/a463d045-65a2-4598-a807-3a4dab15ab2b" />
  
 <img width="746" height="486" alt="Captura de pantalla de 2025-10-03 12-54-49" src="https://github.com/user-attachments/assets/01cd6b90-38ba-4e02-8b48-5237f51e4cf7" />
 
- # Paso 17
+ # Paso 16
   &nbsp;&nbsp; - Aquí podemos ver como cambiar el orden de arranque(efibootmgr -o y los números en orden de arranque). El primero en iniciarse será UEFI VBOX HRDDISK, después UiApp ,UEFI VBOX CD-ROM etc....
 <img width="746" height="486" alt="Captura de pantalla de 2025-10-03 12-57-50" src="https://github.com/user-attachments/assets/847b8947-4da3-4331-8cc8-e3113ff74bf5" />
 
- # Paso 18
+ # Paso 17
   &nbsp;&nbsp; - Después, al iniciar el sistema podemos entrar en el menú de GRUB y seleccionar qué sistema operativo queremos arrancar.
 <img width="1037" height="821" alt="Captura de pantalla de 2025-10-03 13-01-18" src="https://github.com/user-attachments/assets/31c34a3b-7463-4640-b561-b7d93b2069cc" />
 
