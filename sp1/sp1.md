@@ -83,7 +83,7 @@ title: "Sprint 1: Instal·lació i Configuració Inicial"
 ## Instal·lacións duals i Gestors d'arrancada
 
  # Paso 1
- &nbsp;&nbsp; - Activamos EFI ya que si no lo activamos nos podríamos enfrentar con problemas de compatibilidad.
+ &nbsp;&nbsp; - Activamos EFI ya que si no lo activamos nos podríamos enfrentar con problemas de compatibilidad.Tenemos que instalar el Windows en GPT.
  
 <img width="874" height="578" alt="Captura de pantalla de 2025-10-03 11-56-28" src="https://github.com/user-attachments/assets/f02d0b70-215d-4a02-9ea0-ae9ed4d58d7d" />
 
