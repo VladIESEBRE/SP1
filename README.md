@@ -1,7 +1,5 @@
 # Sistemas Informáticos
 
-Este repositorio contiene el material del curso de Sistemas Informáticos desarrollado por Mireia Consarnau.
-
 ## Contenido
 
 - Índice y enlaces a las unidades del curso.
