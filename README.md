@@ -8,11 +8,6 @@ Este repositorio contiene el material del curso de Sistemas Informáticos desarr
 - Recursos en formato PDF, vídeos, y Google Colab.
 - Código y ejemplos prácticos.
 
-## Uso
-
-Este repositorio está preparado para ser publicado con GitHub Pages.  
-Puedes ver la versión web pública en:  
-https://mireiaconsarnau.github.io/machine_learning/
 
 ## Licencia
 
