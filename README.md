@@ -1,11 +1,5 @@
 # Sistemas Informáticos
 
-## Contenido
-
-- Índice y enlaces a las unidades del curso.
-- Recursos en formato PDF, vídeos, y Google Colab.
-- Código y ejemplos prácticos.
-
 
 ## Licencia
 
