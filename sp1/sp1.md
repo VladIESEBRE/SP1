@@ -176,7 +176,10 @@ title: "Sprint 1: Instal·lació i Configuració Inicial"
 ## Particions i punts de restauració
 
 image para s.o, para dadas(ficherso) es diferente, copia de seguridad(instantanea)
-
+# Paso 1
+  &nbsp;&nbsp;
+  # Paso 1
+  &nbsp;&nbsp;
 1. tenemos 2 imatges(hemos creado una nueva de 25gb en sata)
 2.entramos en el disco sdb que hemos creado
 3.oren empieza , w para salir
@@ -188,7 +191,11 @@ image para s.o, para dadas(ficherso) es diferente, copia de seguridad(instantane
 9.marcamos dnd va la instantanea
 10.triar cuando hacer instantanea
 11.seleccionar documentos solo para que no tarde
-12.
+12. soda su , /home/Vlad/Documentos/, ls , rm hola, rm -r prova,ls (captura), timeshift ,elegimos ,restaurar,seguent,captura al final ,terminal, cs /home/vlad/Documentos/, ls
+13.
+14.
+15.
+
 
 </details>
  <details>
