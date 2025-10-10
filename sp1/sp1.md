@@ -174,6 +174,22 @@ title: "Sprint 1: Instal·lació i Configuració Inicial"
   <summary>Particions i punts de restauració</summary>
 
 ## Particions i punts de restauració
+
+image para s.o, para dadas(ficherso) es diferente, copia de seguridad(instantanea)
+
+1. tenemos 2 imatges(hemos creado una nueva de 25gb en sata)
+2.entramos en el disco sdb que hemos creado
+3.oren empieza , w para salir
+4.particion creada
+5.preparado para guardar instantanee, (disc)
+6.instalamos time shift
+7.creamos carpeta
+8.captura time shift
+9.marcamos dnd va la instantanea
+10.triar cuando hacer instantanea
+11.seleccionar documentos solo para que no tarde
+12.
+
 </details>
  <details>
   <summary>Configuració basica de la xarxa</summary>
